@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Publication site</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="all.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <script src="https://unpkg.com/scrollreveal"></script>
+  </head>
+  <body class="home-body">
+    <nav class="navbar">
+      <h1>UNIQUE-PUB</h1>
+      <ul class="navbar-list">
+        <li>
+          <a href="home.html"><span class="nav-links">Home</span><i class="fa-solid fa-house"></i></a>
+        </li>
+        <li>
+          <a href="publications.html"
+            ><span class="nav-links">Publication</span><i class="fa-solid fa-upload"></i
+          ></a>
+        </li>
+        <li>
+          <a href="detail.html"
+            ><span class="nav-links">Details</span><i class="fa-solid fa-circle-info"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+
+    <section class="sec-01">
+      <div class="container">
+        <h2 class="main-title">Explore different Publications</h2>
+        <div class="content">
+          <div class="image">
+            <img src="./images/download.jpeg" alt="No image" />
+          </div>
+          <div class="text-box">
+            <h3>SCI HUB</h3>
+            <p>
+              <span class="sci-hub-desc">#Knowledge as a human right.</span>
+              That's their motto. It helping millions of students and
+              researchers, medical professionals, journalists and curious people
+              in all countries to unlock access to knowledge. provide free and
+              unrestricted access to all scientific knowledge ever published in
+              journal or book form.
+            </p>
+          </div>
+        </div>
+        <div class="media-icons">
+          <a href="#" class="icon"><i class="fa-brands fa-facebook"></i></a>
+
+          <a href="#" class="icon"
+            ><i class="fa-brands fa-square-instagram"></i
+          ></a>
+
+          <a href="#" class="icon"><i class="fa-brands fa-twitter"></i></a>
+
+          <a href="#" class="icon"><i class="fa-brands fa-youtube"></i></a>
+
+          <a href="#" class="icon"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec-02">
+      <div class="container">
+        <h3 class="section-title">J-STOR</h3>
+        <div class="content">
+          <div class="Jstor-image image">
+            <img src="./images/download-1.png" alt="" />
+          </div>
+          <div class="info">
+            <h4 class="info-title">Description</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repellendus, qui pariatur dolorem perferendis doloremque libero
+              culpa earum aspernatur, molestias esse aut doloribus modi
+              reprehenderit quia optio aliquam reiciendis iure accusamus.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec-03">
+      <div class="container">
+        <h3 class="section-title">Research Gate</h3>
+        <div class="content">
+          <div class="media-info">
+            <li>
+              <a href="#"><i class="fa-brands fa-facebook"></i>Facebook</a>
+            </li>
+
+            <li>
+              <a href="#"
+                ><i class="fa-brands fa-square-instagram"></i>Instagram</a
+              >
+            </li>
+
+            <li>
+              <a href="#"><i class="fa-brands fa-twitter"></i>Twitter</a>
+            </li>
+
+            <li>
+              <a href="#"><i class="fa-brands fa-youtube"></i>Youtube</a>
+            </li>
+
+            <li>
+              <a href="#"><i class="fa-brands fa-linkedin"></i>Linkedin</a>
+            </li>
+          </div>
+
+          <div class="image research-gate-image">
+            <img src="./images/research-gate.png" width="400px" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <h2>Explore different services on UNIQUE-PUB</h2>
+      <div class="tabs-contact-container">
+        <div>
+          <h3>Contact</h3>
+          <span></span>
+          <address>Email: kennydebrice2@gmail.com</address>
+        </div>
+
+        <div>
+          <h3><a href="home.html">Home</a></h3>
+          <p>See sites with different publications</p>
+          <p>Navigate to explore publications sites</p>
+        </div>
+
+        <div>
+          <h3><a href="publications.html">Publications</a></h3>
+          <p>Navigate to see where to publish your work</p>
+          <p>See different sites where publications can be found</p>
+          <p>Want to publish your academic research</p>
+        </div>
+
+        <div>
+          <h3><a href="detail.html">Details</a></h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipi</p>
+          <p>Lorem ipsum dolor, sit amet consectetur adip</p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      ScrollReveal({
+        reset: true,
+        distance: "60px",
+        duration: 2500,
+        delay: 400,
+      });
+
+      ScrollReveal().reveal(".main-title", { delay: 300, origin: "left" });
+
+      ScrollReveal().reveal(".sec-01 .image", { delay: 600, origin: "bottom" });
+
+      ScrollReveal().reveal(".text-box", { delay: 700, origin: "right" });
+
+      ScrollReveal().reveal(".media-icons i", {
+        delay: 500,
+        origin: "bottom",
+        interval: 200,
+      });
+
+      ScrollReveal().reveal(".sec-02 .image, sec-03 .image", {
+        delay: 500,
+        origin: "top",
+      });
+
+      ScrollReveal().reveal(".media-info li", {
+        delay: 500,
+        origin: "left",
+        interval: 200,
+      });
+    </script>
+  </body>
+</html>
